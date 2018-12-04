@@ -52,7 +52,7 @@ pipeline {
                         continueOnError: false,
                         publishers: [
                             sshPublisherDesc(
-                                configName: 'production',
+                                configName: 'Production',
                                 sshCredentials: [
                                     username: "$USERNAME",
                                     encryptedPassphrase: "$USERPASS"
